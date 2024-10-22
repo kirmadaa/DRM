@@ -1,0 +1,437 @@
+{
+    "name": "Leads - Canvas",
+    "width": null,
+    "row_size": 101,
+    "feature": "ListView",
+    "components": {
+        "avatar": {
+            "position": {
+                "startX": 12,
+                "startY": 12,
+                "width": null,
+                "height": null,
+                "singleCellWidth": 1,
+                "singleCellHeight": 1,
+                "imageWidth": 335
+            },
+            "styles": {
+                "radiusType": "borderRadius",
+                "textAlign": "left",
+                "textTransform": "",
+                "backgroundColor": "#fff",
+                "width": "170",
+                "height": "170"
+            }
+        },
+        "title": {
+            "info": {
+                "field": "name",
+                "data_type": "TEXT"
+            },
+            "position": {
+                "startX": 103,
+                "startY": 11,
+                "width": null,
+                "height": null,
+                "singleCellWidth": 1,
+                "singleCellHeight": 1,
+                "imageWidth": 335
+            },
+            "styles": {
+                "radiusType": "borderRadius",
+                "radiusUnit": "0",
+                "paddingUnit": "",
+                "paddingType": "padding",
+                "border": 0,
+                "borderColor": "",
+                "borderStyle": "solid",
+                "fontSize": 15,
+                "weight": 300,
+                "bold": false,
+                "font_style": "Normal",
+                "textAlign": "left",
+                "textTransform": "",
+                "italic": false,
+                "backgroundColor": "#fff",
+                "labelAlign": "left"
+            }
+        },
+        "baseInfo": {
+            "styles": {
+                "radiusType": "borderRadius",
+                "radiusUnit": "0",
+                "paddingUnit": "",
+                "paddingType": "padding",
+                "border": 0,
+                "borderColor": "",
+                "borderStyle": "solid",
+                "fontSize": 15,
+                "weight": 300,
+                "bold": false,
+                "font_style": "Normal",
+                "textAlign": "left",
+                "textTransform": "",
+                "italic": false,
+                "backgroundColor": "#fff",
+                "labelAlign": "left",
+                "width": "600"
+            },
+            "position": {
+                "startX": 103,
+                "startY": 27,
+                "width": null,
+                "height": null,
+                "singleCellWidth": 1,
+                "singleCellHeight": 1
+            },
+            "children": [
+                {
+                    "label": {
+                        "field": "name",
+                        "styles": {
+                            "radiusType": "borderRadius",
+                            "radiusUnit": "0",
+                            "paddingUnit": "",
+                            "paddingType": "padding",
+                            "border": 0,
+                            "borderColor": "",
+                            "borderStyle": "solid",
+                            "fontSize": 15,
+                            "weight": 300,
+                            "bold": false,
+                            "font_style": "Normal",
+                            "textAlign": "left",
+                            "textTransform": "",
+                            "italic": false,
+                            "backgroundColor": "",
+                            "labelAlign": "left"
+                        }
+                    },
+                    "value": {
+                        "field": "name",
+                        "data_type": "TEXT",
+                        "styles": {
+                            "radiusType": "borderRadius",
+                            "radiusUnit": "0",
+                            "paddingUnit": "",
+                            "paddingType": "padding",
+                            "border": 0,
+                            "borderColor": "",
+                            "borderStyle": "solid",
+                            "fontSize": 15,
+                            "weight": 300,
+                            "bold": false,
+                            "font_style": "Normal",
+                            "textAlign": "left",
+                            "textTransform": "",
+                            "italic": false,
+                            "backgroundColor": "",
+                            "labelAlign": "left"
+                        }
+                    }
+                },
+                {
+                    "label": {
+                        "field": "phone",
+                        "styles": {
+                            "radiusType": "borderRadius",
+                            "radiusUnit": "0",
+                            "paddingUnit": "",
+                            "paddingType": "padding",
+                            "border": 0,
+                            "borderColor": "",
+                            "borderStyle": "solid",
+                            "fontSize": 15,
+                            "weight": 300,
+                            "bold": false,
+                            "font_style": "Normal",
+                            "textAlign": "left",
+                            "textTransform": "",
+                            "italic": false,
+                            "backgroundColor": "",
+                            "labelAlign": "left"
+                        }
+                    },
+                    "value": {
+                        "field": "phone",
+                        "data_type": "TEXT",
+                        "styles": {
+                            "radiusType": "borderRadius",
+                            "radiusUnit": "0",
+                            "paddingUnit": "",
+                            "paddingType": "padding",
+                            "border": 0,
+                            "borderColor": "",
+                            "borderStyle": "solid",
+                            "fontSize": 15,
+                            "weight": 300,
+                            "bold": false,
+                            "font_style": "Normal",
+                            "textAlign": "left",
+                            "textTransform": "",
+                            "italic": false,
+                            "backgroundColor": "",
+                            "labelAlign": "left"
+                        }
+                    }
+                },
+                {
+                    "label": {
+                        "field": "email",
+                        "styles": {
+                            "radiusType": "borderRadius",
+                            "radiusUnit": "0",
+                            "paddingUnit": "",
+                            "paddingType": "padding",
+                            "border": 0,
+                            "borderColor": "",
+                            "borderStyle": "solid",
+                            "fontSize": 15,
+                            "weight": 300,
+                            "bold": false,
+                            "font_style": "Normal",
+                            "textAlign": "left",
+                            "textTransform": "",
+                            "italic": false,
+                            "backgroundColor": "",
+                            "labelAlign": "left"
+                        }
+                    },
+                    "value": {
+                        "field": "email",
+                        "data_type": "TEXT",
+                        "styles": {
+                            "radiusType": "borderRadius",
+                            "radiusUnit": "0",
+                            "paddingUnit": "",
+                            "paddingType": "padding",
+                            "border": 0,
+                            "borderColor": "",
+                            "borderStyle": "solid",
+                            "fontSize": 15,
+                            "weight": 300,
+                            "bold": false,
+                            "font_style": "Normal",
+                            "textAlign": "left",
+                            "textTransform": "",
+                            "italic": false,
+                            "backgroundColor": "",
+                            "labelAlign": "left"
+                        }
+                    }
+                },
+                {
+                    "label": {
+                        "field": "company",
+                        "styles": {
+                            "radiusType": "borderRadius",
+                            "radiusUnit": "0",
+                            "paddingUnit": "",
+                            "paddingType": "padding",
+                            "border": 0,
+                            "borderColor": "",
+                            "borderStyle": "solid",
+                            "fontSize": 15,
+                            "weight": 300,
+                            "bold": false,
+                            "font_style": "Normal",
+                            "textAlign": "left",
+                            "textTransform": "",
+                            "italic": false,
+                            "backgroundColor": "",
+                            "labelAlign": "left"
+                        }
+                    },
+                    "value": {
+                        "field": "company",
+                        "data_type": "TEXT",
+                        "styles": {
+                            "radiusType": "borderRadius",
+                            "radiusUnit": "0",
+                            "paddingUnit": "",
+                            "paddingType": "padding",
+                            "border": 0,
+                            "borderColor": "",
+                            "borderStyle": "solid",
+                            "fontSize": 15,
+                            "weight": 300,
+                            "bold": false,
+                            "font_style": "Normal",
+                            "textAlign": "left",
+                            "textTransform": "",
+                            "italic": false,
+                            "backgroundColor": "",
+                            "labelAlign": "left"
+                        }
+                    }
+                },
+                {
+                    "label": {
+                        "field": "lead_source",
+                        "styles": {
+                            "radiusType": "borderRadius",
+                            "radiusUnit": "0",
+                            "paddingUnit": "",
+                            "paddingType": "padding",
+                            "border": 0,
+                            "borderColor": "",
+                            "borderStyle": "solid",
+                            "fontSize": 15,
+                            "weight": 300,
+                            "bold": false,
+                            "font_style": "Normal",
+                            "textAlign": "left",
+                            "textTransform": "",
+                            "italic": false,
+                            "backgroundColor": "",
+                            "labelAlign": "left"
+                        }
+                    },
+                    "value": {
+                        "field": "lead_source",
+                        "data_type": "TEXT",
+                        "styles": {
+                            "radiusType": "borderRadius",
+                            "radiusUnit": "0",
+                            "paddingUnit": "",
+                            "paddingType": "padding",
+                            "border": 0,
+                            "borderColor": "",
+                            "borderStyle": "solid",
+                            "fontSize": 15,
+                            "weight": 300,
+                            "bold": false,
+                            "font_style": "Normal",
+                            "textAlign": "left",
+                            "textTransform": "",
+                            "italic": false,
+                            "backgroundColor": "",
+                            "labelAlign": "left"
+                        }
+                    }
+                }
+            ]
+        },
+        "leadOwneravatar": {
+            "position": {
+                "startX": 369,
+                "startY": 8,
+                "width": null,
+                "height": null,
+                "singleCellWidth": 1,
+                "singleCellHeight": 1,
+                "imageWidth": 335
+            },
+            "styles": {
+                "radiusType": "borderRadius",
+                "textAlign": "left",
+                "textTransform": "",
+                "backgroundColor": "#fff"
+            }
+        },
+        "leadOwnername": {
+            "info": {
+                "field": "name",
+                "data_type": "TEXT"
+            },
+            "position": {
+                "startX": 398,
+                "startY": 7,
+                "width": null,
+                "height": null,
+                "singleCellWidth": 1,
+                "singleCellHeight": 1,
+                "imageWidth": 335
+            },
+            "styles": {
+                "radiusType": "borderRadius",
+                "radiusUnit": "0",
+                "paddingUnit": "",
+                "paddingType": "padding",
+                "border": 0,
+                "borderColor": "",
+                "borderStyle": "solid",
+                "fontSize": 15,
+                "weight": 300,
+                "bold": false,
+                "font_style": "Normal",
+                "textAlign": "left",
+                "textTransform": "",
+                "italic": false,
+                "backgroundColor": "#fff",
+                "labelAlign": "left"
+            }
+        },
+        "leadOwnerContact": {
+            "info": {
+                "field": "name",
+                "data_type": "TEXT"
+            },
+            "position": {
+                "startX": null,
+                "startY": null,
+                "width": null,
+                "height": null,
+                "singleCellWidth": 1,
+                "singleCellHeight": 1,
+                "imageWidth": 335
+            },
+            "styles": {
+                "radiusType": "borderRadius",
+                "radiusUnit": "0",
+                "paddingUnit": "",
+                "paddingType": "padding",
+                "border": 0,
+                "borderColor": "",
+                "borderStyle": "solid",
+                "fontSize": 15,
+                "weight": 300,
+                "bold": false,
+                "font_style": "Normal",
+                "textAlign": "left",
+                "textTransform": "",
+                "italic": false,
+                "backgroundColor": "#fff",
+                "labelAlign": "left"
+            }
+        },
+        "leadOwnerDate": {
+            "info": {
+                "field": "date",
+                "data_type": "TEXT"
+            },
+            "position": {
+                "startX": 396,
+                "startY": 29,
+                "width": null,
+                "height": null,
+                "singleCellWidth": 1,
+                "singleCellHeight": 1,
+                "imageWidth": 335
+            },
+            "styles": {
+                "radiusType": "borderRadius",
+                "radiusUnit": "0",
+                "paddingUnit": "",
+                "paddingType": "padding",
+                "border": 0,
+                "borderColor": "",
+                "borderStyle": "solid",
+                "fontSize": 15,
+                "weight": 300,
+                "bold": false,
+                "font_style": "Normal",
+                "textAlign": "left",
+                "textTransform": "",
+                "italic": false,
+                "backgroundColor": "#fff",
+                "labelAlign": "left"
+            }
+        },
+        "otherInfo": {}
+    },
+    "module": {
+        "id": "534766000000000037",
+        "api_name": "Leads"
+    }
+}

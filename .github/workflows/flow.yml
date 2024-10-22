@@ -1,0 +1,37 @@
+name: Build and Push Docker Image
+
+on:
+  push:
+    branches:
+      - fixes/listveiw
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up QEMU for multi-platform builds
+      uses: docker/setup-buildx-action@v2
+
+    - name: Log in to Amazon ECR
+      uses: aws-actions/amazon-ecr-login@v1
+      with:
+        aws-access-key-id: "ASIARHJJMYY4V756PXCZ"
+        aws-secret-access-key: "gz3ec/6cr8NIgiSGRa57KtXTzWD259yMNLQSsuap"
+        aws-region: "eu-north-1"
+        
+      
+    - name: Build Docker image
+      run: |
+        docker build -t crm-frontend:${{ github.sha }} .
+
+    - name: Tag Docker image
+      run: |
+        docker tag crm-frontend:${{ github.sha }}  084375553593.dkr.ecr.eu-north-1.amazonaws.com/crm-frontend:${{ github.sha }}
+
+    - name: Push Docker image to Amazon ECR
+      run: |
+        docker push 084375553593.dkr.ecr.eu-north-1.amazonaws.com/crm-frontend:${{ github.sha }} 
+

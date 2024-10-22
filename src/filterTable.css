@@ -1,0 +1,9 @@
+.draggable {
+    top: auto !important;
+    left: auto !important;
+}
+
+[data-rbd-draggable-id] {
+    left: auto !important;
+    top: auto !important;
+}

@@ -1,0 +1,1128 @@
+{
+  "images": [
+    {
+      "name": "Afghanistan",
+      "dialingCode": "+93",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/af-flag.jpg"
+    },
+    {
+      "name": "Albania",
+      "dialingCode": "+355",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/al-flag.jpg"
+    },
+    {
+      "name": "Algeria",
+      "dialingCode": "+213",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/dz-flag.jpg"
+    },
+    {
+      "name": "Andorra",
+      "dialingCode": "+376",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/ad-flag.jpg"
+    },
+    {
+      "name": "Angola",
+      "dialingCode": "+244",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/ao-flag.jpg"
+    },
+    {
+      "name": "Antigua and Barbuda",
+      "dialingCode": "+1",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/ag-flag.jpg"
+    },
+    {
+      "name": "Argentina",
+      "dialingCode": "+54",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/ar-flag.jpg"
+    },
+    {
+      "name": "Armenia",
+      "dialingCode": "+374",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/am-flag.jpg"
+    },
+    {
+      "name": "Australia",
+      "dialingCode": "+61",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/au-flag.jpg"
+    },
+    {
+      "name": "Austria",
+      "dialingCode": "+43",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/at-flag.jpg"
+    },
+    {
+      "name": "Azerbaijan",
+      "dialingCode": "+994",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/az-flag.jpg"
+    },
+    {
+      "name": "Bahamas",
+      "dialingCode": "+1",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/bs-flag.jpg"
+    },
+    {
+      "name": "Bahrain",
+      "dialingCode": "+973",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/bh-flag.jpg"
+    },
+    {
+      "name": "Bangladesh",
+      "dialingCode": "+880",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/bd-flag.jpg"
+    },
+    {
+      "name": "Barbados",
+      "dialingCode": "+1",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/bb-flag.jpg"
+    },
+    {
+      "name": "Belarus",
+      "dialingCode": "+375",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/by-flag.jpg"
+    },
+    {
+      "name": "Belgium",
+      "dialingCode": "+32",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/be-flag.jpg"
+    },
+    {
+      "name": "Belize",
+      "dialingCode": "+501",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/bz-flag.jpg"
+    },
+    {
+      "name": "Benin",
+      "dialingCode": "+229",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/bj-flag.jpg"
+    },
+    {
+      "name": "Bhutan",
+      "dialingCode": "+975",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/bt-flag.jpg"
+    },
+    {
+      "name": "Bolivia",
+      "dialingCode": "+591",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/bo-flag.jpg"
+    },
+    {
+      "name": "Bosnia and Herzegovina",
+      "dialingCode": "+387",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/ba-flag.jpg"
+    },
+    {
+      "name": "Botswana",
+      "dialingCode": "+267",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/bw-flag.jpg"
+    },
+    {
+      "name": "Brazil",
+      "dialingCode": "+55",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/br-flag.jpg"
+    },
+    {
+      "name": "Brunei",
+      "dialingCode": "+673",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/bn-flag.jpg"
+    },
+    {
+      "name": "Bulgaria",
+      "dialingCode": "+359",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/bg-flag.jpg"
+    },
+    {
+      "name": "Burkina Faso",
+      "dialingCode": "+226",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/bf-flag.jpg"
+    },
+    {
+      "name": "Burundi",
+      "dialingCode": "+257",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/bi-flag.jpg"
+    },
+    {
+      "name": "Cambodia",
+      "dialingCode": "+855",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/kh-flag.jpg"
+    },
+    {
+      "name": "Cameroon",
+      "dialingCode": "+237",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/cm-flag.jpg"
+    },
+    {
+      "name": "Canada",
+      "dialingCode": "+1",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/ca-flag.jpg"
+    },
+    {
+      "name": "Cape Verde",
+      "dialingCode": "+238",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/cv-flag.jpg"
+    },
+    {
+      "name": "Central African Republic",
+      "dialingCode": "+236",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/cf-flag.jpg"
+    },
+    {
+      "name": "Chad",
+      "dialingCode": "+235",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/td-flag.jpg"
+    },
+    {
+      "name": "Chile",
+      "dialingCode": "+56",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/cl-flag.jpg"
+    },
+    {
+      "name": "China",
+      "dialingCode": "+86",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/cn-flag.jpg"
+    },
+    {
+      "name": "Colombia",
+      "dialingCode": "+57",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/co-flag.jpg"
+    },
+    {
+      "name": "Comoros",
+      "dialingCode": "+269",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/km-flag.jpg"
+    },
+    {
+      "name": "Republic of the Congo",
+      "dialingCode": "+242",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/cg-flag.jpg"
+    },
+    {
+      "name": "Costa Rica",
+      "dialingCode": "+506",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/cr-flag.jpg"
+    },
+    {
+      "name": "Ivory Coast",
+      "dialingCode": "+225",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/ci-flag.jpg"
+    },
+    {
+      "name": "Croatia",
+      "dialingCode": "+385",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/hr-flag.jpg"
+    },
+    {
+      "name": "Cuba",
+      "dialingCode": "+53",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/cu-flag.jpg"
+    },
+    {
+      "name": "Cyprus",
+      "dialingCode": "+357",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/cy-flag.jpg"
+    },
+    {
+      "name": "Czech Republic",
+      "dialingCode": "+420",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/cz-flag.jpg"
+    },
+    {
+      "name": "Democratic Republic of the Congo",
+      "dialingCode": "+243",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/cd-flag.jpg"
+    },
+    {
+      "name": "Denmark",
+      "dialingCode": "+45",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/dk-flag.jpg"
+    },
+    {
+      "name": "Djibouti",
+      "dialingCode": "+253",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/dj-flag.jpg"
+    },
+    {
+      "name": "Dominica",
+      "dialingCode": "+1",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/dm-flag.jpg"
+    },
+    {
+      "name": "Dominican Republic",
+      "dialingCode": "+1",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/do-flag.jpg"
+    },
+    {
+      "name": "Ecuador",
+      "dialingCode": "+593",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/ec-flag.jpg"
+    },
+    {
+      "name": "Egypt",
+      "dialingCode": "+20",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/eg-flag.jpg"
+    },
+    {
+      "name": "El Salvador",
+      "dialingCode": "+503",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/sv-flag.jpg"
+    },
+    {
+      "name": "Equatorial Guinea",
+      "dialingCode": "+240",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/gq-flag.jpg"
+    },
+    {
+      "name": "Eritrea",
+      "dialingCode": "+291",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/er-flag.jpg"
+    },
+    {
+      "name": "Estonia",
+      "dialingCode": "+372",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/ee-flag.jpg"
+    },
+    {
+      "name": "Eswatini",
+      "dialingCode": "+268",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/sz-flag.jpg"
+    },
+    {
+      "name": "Ethiopia",
+      "dialingCode": "+251",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/et-flag.jpg"
+    },
+    {
+      "name": "Fiji",
+      "dialingCode": "+679",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/fj-flag.jpg"
+    },
+    {
+      "name": "Finland",
+      "dialingCode": "+358",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/fi-flag.jpg"
+    },
+    {
+      "name": "France",
+      "dialingCode": "+33",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/fr-flag.jpg"
+    },
+    {
+      "name": "Gabon",
+      "dialingCode": "+241",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/ga-flag.jpg"
+    },
+    {
+      "name": "Gambia",
+      "dialingCode": "+220",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/gm-flag.jpg"
+    },
+    {
+      "name": "Georgia",
+      "dialingCode": "+995",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/ge-flag.jpg"
+    },
+    {
+      "name": "Germany",
+      "dialingCode": "+49",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/de-flag.jpg"
+    },
+    {
+      "name": "Ghana",
+      "dialingCode": "+233",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/gh-flag.jpg"
+    },
+    {
+      "name": "Greece",
+      "dialingCode": "+30",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/gr-flag.jpg"
+    },
+    {
+      "name": "Grenada",
+      "dialingCode": "+1",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/gd-flag.jpg"
+    },
+    {
+      "name": "Guatemala",
+      "dialingCode": "+502",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/gt-flag.jpg"
+    },
+    {
+      "name": "Guinea",
+      "dialingCode": "+224",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/gn-flag.jpg"
+    },
+    {
+      "name": "Guinea-Bissau",
+      "dialingCode": "+245",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/gw-flag.jpg"
+    },
+    {
+      "name": "Guyana",
+      "dialingCode": "+592",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/gy-flag.jpg"
+    },
+    {
+      "name": "Haiti",
+      "dialingCode": "+509",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/ht-flag.jpg"
+    },
+    {
+      "name": "Honduras",
+      "dialingCode": "+504",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/hn-flag.jpg"
+    },
+    {
+      "name": "Hungary",
+      "dialingCode": "+36",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/hu-flag.jpg"
+    },
+    {
+      "name": "Iceland",
+      "dialingCode": "+354",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/is-flag.jpg"
+    },
+    {
+      "name": "India",
+      "dialingCode": "+91",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/in-flag.jpg"
+    },
+    {
+      "name": "Indonesia",
+      "dialingCode": "+62",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/id-flag.jpg"
+    },
+    {
+      "name": "Iran",
+      "dialingCode": "+98",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/ir-flag.jpg"
+    },
+    {
+      "name": "Iraq",
+      "dialingCode": "+964",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/iq-flag.jpg"
+    },
+    {
+      "name": "Ireland",
+      "dialingCode": "+353",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/ie-flag.jpg"
+    },
+    {
+      "name": "Israel",
+      "dialingCode": "+972",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/il-flag.jpg"
+    },
+    {
+      "name": "Italy",
+      "dialingCode": "+39",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/it-flag.jpg"
+    },
+    {
+      "name": "Jamaica",
+      "dialingCode": "+1",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/jm-flag.jpg"
+    },
+    {
+      "name": "Japan",
+      "dialingCode": "+81",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/jp-flag.jpg"
+    },
+    {
+      "name": "Jordan",
+      "dialingCode": "+962",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/jo-flag.jpg"
+    },
+    {
+      "name": "Kazakhstan",
+      "dialingCode": "+7",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/kz-flag.jpg"
+    },
+    {
+      "name": "Kenya",
+      "dialingCode": "+254",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/ke-flag.jpg"
+    },
+    {
+      "name": "Kiribati",
+      "dialingCode": "+686",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/ki-flag.jpg"
+    },
+    {
+      "name": "Kuwait",
+      "dialingCode": "+965",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/kw-flag.jpg"
+    },
+    {
+      "name": "Kyrgyzstan",
+      "dialingCode": "+996",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/kg-flag.jpg"
+    },
+    {
+      "name": "Laos",
+      "dialingCode": "+856",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/la-flag.jpg"
+    },
+    {
+      "name": "Latvia",
+      "dialingCode": "+371",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/lv-flag.jpg"
+    },
+    {
+      "name": "Lebanon",
+      "dialingCode": "+961",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/lb-flag.jpg"
+    },
+    {
+      "name": "Lesotho",
+      "dialingCode": "+266",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/ls-flag.jpg"
+    },
+    {
+      "name": "Liberia",
+      "dialingCode": "+231",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/lr-flag.jpg"
+    },
+    {
+      "name": "Libya",
+      "dialingCode": "+218",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/ly-flag.jpg"
+    },
+    {
+      "name": "Liechtenstein",
+      "dialingCode": "+423",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/li-flag.jpg"
+    },
+    {
+      "name": "Lithuania",
+      "dialingCode": "+370",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/lt-flag.jpg"
+    },
+    {
+      "name": "Luxembourg",
+      "dialingCode": "+352",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/lu-flag.jpg"
+    },
+    {
+      "name": "Macedonia",
+      "dialingCode": "+389",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/mk-flag.jpg"
+    },
+    {
+      "name": "Madagascar",
+      "dialingCode": "+261",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/mg-flag.jpg"
+    },
+    {
+      "name": "Malawi",
+      "dialingCode": "+265",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/mw-flag.jpg"
+    },
+    {
+      "name": "Malaysia",
+      "dialingCode": "+60",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/my-flag.jpg"
+    },
+    {
+      "name": "Maldives",
+      "dialingCode": "+960",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/mv-flag.jpg"
+    },
+    {
+      "name": "Mali",
+      "dialingCode": "+223",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/ml-flag.jpg"
+    },
+    {
+      "name": "Malta",
+      "dialingCode": "+356",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/mt-flag.jpg"
+    },
+    {
+      "name": "Marshall Islands",
+      "dialingCode": "+692",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/mh-flag.jpg"
+    },
+    {
+      "name": "Mauritania",
+      "dialingCode": "+222",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/mr-flag.jpg"
+    },
+    {
+      "name": "Mauritius",
+      "dialingCode": "+230",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/mu-flag.jpg"
+    },
+    {
+      "name": "Mexico",
+      "dialingCode": "+52",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/mx-flag.jpg"
+    },
+    {
+      "name": "Micronesia",
+      "dialingCode": "+691",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/fm-flag.jpg"
+    },
+    {
+      "name": "Moldova",
+      "dialingCode": "+373",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/md-flag.jpg"
+    },
+    {
+      "name": "Monaco",
+      "dialingCode": "+377",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/mc-flag.jpg"
+    },
+    {
+      "name": "Mongolia",
+      "dialingCode": "+976",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/mn-flag.jpg"
+    },
+    {
+      "name": "Montenegro",
+      "dialingCode": "+382",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/me-flag.jpg"
+    },
+    {
+      "name": "Morocco",
+      "dialingCode": "+212",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/ma-flag.jpg"
+    },
+    {
+      "name": "Mozambique",
+      "dialingCode": "+258",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/mz-flag.jpg"
+    },
+    {
+      "name": "Myanmar",
+      "dialingCode": "+95",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/mm-flag.jpg"
+    },
+    {
+      "name": "Namibia",
+      "dialingCode": "+264",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/na-flag.jpg"
+    },
+    {
+      "name": "Nauru",
+      "dialingCode": "+674",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/nr-flag.jpg"
+    },
+    {
+      "name": "Nepal",
+      "dialingCode": "+977",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/np-flag.jpg"
+    },
+    {
+      "name": "Netherlands",
+      "dialingCode": "+31",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/nl-flag.jpg"
+    },
+    {
+      "name": "New Zealand",
+      "dialingCode": "+64",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/nz-flag.jpg"
+    },
+    {
+      "name": "Nicaragua",
+      "dialingCode": "+505",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/ni-flag.jpg"
+    },
+    {
+      "name": "Niger",
+      "dialingCode": "+227",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/ne-flag.jpg"
+    },
+    {
+      "name": "Nigeria",
+      "dialingCode": "+234",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/ng-flag.jpg"
+    },
+    {
+      "name": "North Korea",
+      "dialingCode": "+850",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/kp-flag.jpg"
+    },
+    {
+      "name": "Norway",
+      "dialingCode": "+47",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/no-flag.jpg"
+    },
+    {
+      "name": "Oman",
+      "dialingCode": "+968",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/om-flag.jpg"
+    },
+    {
+      "name": "Pakistan",
+      "dialingCode": "+92",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/pk-flag.jpg"
+    },
+    {
+      "name": "Palau",
+      "dialingCode": "+680",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/pw-flag.jpg"
+    },
+    {
+      "name": "Panama",
+      "dialingCode": "+507",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/pa-flag.jpg"
+    },
+    {
+      "name": "Papua New Guinea",
+      "dialingCode": "+675",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/pg-flag.jpg"
+    },
+    {
+      "name": "Paraguay",
+      "dialingCode": "+595",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/py-flag.jpg"
+    },
+    {
+      "name": "Peru",
+      "dialingCode": "+51",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/pe-flag.jpg"
+    },
+    {
+      "name": "Philippines",
+      "dialingCode": "+63",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/ph-flag.jpg"
+    },
+    {
+      "name": "Poland",
+      "dialingCode": "+48",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/pl-flag.jpg"
+    },
+    {
+      "name": "Portugal",
+      "dialingCode": "+351",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/pt-flag.jpg"
+    },
+    {
+      "name": "Qatar",
+      "dialingCode": "+974",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/qa-flag.jpg"
+    },
+    {
+      "name": "Romania",
+      "dialingCode": "+40",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/ro-flag.jpg"
+    },
+    {
+      "name": "Russia",
+      "dialingCode": "+7",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/ru-flag.jpg"
+    },
+    {
+      "name": "Rwanda",
+      "dialingCode": "+250",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/rw-flag.jpg"
+    },
+    {
+      "name": "Saint Kitts and Nevis",
+      "dialingCode": "+1",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/kn-flag.jpg"
+    },
+    {
+      "name": "Saint Lucia",
+      "dialingCode": "+1",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/lc-flag.jpg"
+    },
+    {
+      "name": "Samoa",
+      "dialingCode": "+685",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/ws-flag.jpg"
+    },
+    {
+      "name": "San Marino",
+      "dialingCode": "+378",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/sm-flag.jpg"
+    },
+    {
+      "name": "Sao Tome and Principe",
+      "dialingCode": "+239",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/st-flag.jpg"
+    },
+    {
+      "name": "Saudi Arabia",
+      "dialingCode": "+966",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/sa-flag.jpg"
+    },
+    {
+      "name": "Senegal",
+      "dialingCode": "+221",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/sn-flag.jpg"
+    },
+    {
+      "name": "Serbia",
+      "dialingCode": "+381",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/rs-flag.jpg"
+    },
+    {
+      "name": "Seychelles",
+      "dialingCode": "+248",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/sc-flag.jpg"
+    },
+    {
+      "name": "Sierra Leone",
+      "dialingCode": "+232",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/sl-flag.jpg"
+    },
+    {
+      "name": "Singapore",
+      "dialingCode": "+65",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/sg-flag.jpg"
+    },
+    {
+      "name": "Slovakia",
+      "dialingCode": "+421",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/sk-flag.jpg"
+    },
+    {
+      "name": "Slovenia",
+      "dialingCode": "+386",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/si-flag.jpg"
+    },
+    {
+      "name": "Solomon Islands",
+      "dialingCode": "+677",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/sb-flag.jpg"
+    },
+    {
+      "name": "Somalia",
+      "dialingCode": "+252",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/so-flag.jpg"
+    },
+    {
+      "name": "South Africa",
+      "dialingCode": "+27",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/za-flag.jpg"
+    },
+    {
+      "name": "South Korea",
+      "dialingCode": "+82",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/kr-flag.jpg"
+    },
+    {
+      "name": "South Sudan",
+      "dialingCode": "+34",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/ss-flag.jpg"
+    },
+    {
+      "name": "Spain",
+      "dialingCode": "+94",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/es-flag.jpg"
+    },
+    {
+      "name": "Sri Lanka",
+      "dialingCode": "+1",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/lk-flag.jpg"
+    },
+    {
+      "name": "Saint Vincent and the Grenadines",
+      "dialingCode": "+249",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/vc-flag.jpg"
+    },
+    {
+      "name": "Sudan",
+      "dialingCode": "+597",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/sd-flag.jpg"
+    },
+    {
+      "name": "Suriname",
+      "dialingCode": "+46",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/sr-flag.jpg"
+    },
+    {
+      "name": "Sweden",
+      "dialingCode": "+41",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/se-flag.jpg"
+    },
+    {
+      "name": "Switzerland",
+      "dialingCode": "+963",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/ch-flag.png"
+    },
+    {
+      "name": "Syria",
+      "dialingCode": "+992",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/sy-flag.jpg"
+    },
+    {
+      "name": "Tajikistan",
+      "dialingCode": "+255",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/tj-flag.jpg"
+    },
+    {
+      "name": "Tanzania",
+      "dialingCode": "+66",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/tz-flag.jpg"
+    },
+    {
+      "name": "Thailand",
+      "dialingCode": "+670",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/th-flag.jpg"
+    },
+    {
+      "name": "East Timor",
+      "dialingCode": "+228",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/tl-flag.jpg"
+    },
+    {
+      "name": "Togo",
+      "dialingCode": "+676",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/tg-flag.jpg"
+    },
+    {
+      "name": "Tonga",
+      "dialingCode": "+1",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/to-flag.jpg"
+    },
+    {
+      "name": "Trinidad and Tobago",
+      "dialingCode": "+216",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/tt-flag.jpg"
+    },
+    {
+      "name": "Tunisia",
+      "dialingCode": "+90",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/tn-flag.jpg"
+    },
+    {
+      "name": "Turkey",
+      "dialingCode": "+993",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/tr-flag.jpg"
+    },
+    {
+      "name": "Turkmenistan",
+      "dialingCode": "+688",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/tm-flag.jpg"
+    },
+    {
+      "name": "Tuvalu",
+      "dialingCode": "+256",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/tv-flag.jpg"
+    },
+    {
+      "name": "Uganda",
+      "dialingCode": "+380",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/ug-flag.jpg"
+    },
+    {
+      "name": "Ukraine",
+      "dialingCode": "+971",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/ua-flag.jpg"
+    },
+    {
+      "name": "United Arab Emirates",
+      "dialingCode": "+44",
+      "imageLink": "https://www.worldatlas.com/r/w425/upload/f4/a6/ab/uae-flag.png"
+    },
+    {
+      "name": "United Kingdom",
+      "dialingCode": "+1",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/uk-flag.jpg"
+    },
+    {
+      "name": "United States",
+      "dialingCode": "+598",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/us-flag.jpg"
+    },
+    {
+      "name": "Uruguay",
+      "dialingCode": "+998",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/uy-flag.jpg"
+    },
+    {
+      "name": "Uzbekistan",
+      "dialingCode": "+678",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/uz-flag.jpg"
+    },
+    {
+      "name": "Vanuatu",
+      "dialingCode": "+58",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/vu-flag.jpg"
+    },
+    {
+      "name": "Venezuela",
+      "dialingCode": "+84",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/ve-flag.jpg"
+    },
+    {
+      "name": "Vietnam",
+      "dialingCode": "+967",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/vn-flag.jpg"
+    },
+    {
+      "name": "Yemen",
+      "dialingCode": "+260",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/ye-flag.jpg"
+    },
+    {
+      "name": "Zambia",
+      "dialingCode": "+263",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/zm-flag.jpg"
+    },
+    {
+      "name": "Zimbabwe",
+      "dialingCode": "+970",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/zw-flag.jpg"
+    },
+    {
+      "name": "Palestine",
+      "dialingCode": "+379",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/ps-flag.jpg"
+    },
+    {
+      "name": "Vatican",
+      "dialingCode": "+1",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/va-flag.jpg"
+    },
+    {
+      "name": "American Samoa",
+      "dialingCode": "+1",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/as-flag.jpg"
+    },
+    {
+      "name": "Anguilla",
+      "dialingCode": "+297",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/ai-flag.jpg"
+    },
+    {
+      "name": "Aruba",
+      "dialingCode": "+1",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/aw-flag.jpg"
+    },
+    {
+      "name": "Bermuda",
+      "dialingCode": "+1",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/bm-flag.jpg"
+    },
+    {
+      "name": "British Virgin Islands",
+      "dialingCode": "+1",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/vg-flag.jpg"
+    },
+    {
+      "name": "Cayman Islands",
+      "dialingCode": "+682",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/ky-flag.jpg"
+    },
+    {
+      "name": "Cook Islands",
+      "dialingCode": "+500",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/ck-flag.jpg"
+    },
+    {
+      "name": "Falkland Islands",
+      "dialingCode": "+594",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/fk-flag.jpg"
+    },
+    {
+      "name": "French Guiana",
+      "dialingCode": "+689",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/gf-flag.jpg"
+    },
+    {
+      "name": "French Polynesia",
+      "dialingCode": "+350",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/pf-flag.jpg"
+    },
+    {
+      "name": "Gibraltar",
+      "dialingCode": "+299",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/gi-flag.jpg"
+    },
+    {
+      "name": "Greenland",
+      "dialingCode": "+590",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/gl-flag.jpg"
+    },
+    {
+      "name": "Guadeloupe",
+      "dialingCode": "+1",
+      "imageLink": "https://www.worldatlas.com/r/w425/upload/21/fd/63/1280px-flag-of-france-svg-1.png"
+    },
+    {
+      "name": "Guam",
+      "dialingCode": "+852",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/gu-flag.jpg"
+    },
+    {
+      "name": "Hong Kong",
+      "dialingCode": "+853",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/hk-flag.jpg"
+    },
+    {
+      "name": "Macao",
+      "dialingCode": "+1",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/mo-flag.jpg"
+    },
+    {
+      "name": "Montserrat",
+      "dialingCode": "+687",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/ms-flag.jpg"
+    },
+    {
+      "name": "New Caledonia",
+      "dialingCode": "+683",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/nc-flag.jpg"
+    },
+    {
+      "name": "Niue",
+      "dialingCode": "+672",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/nu-flag.jpg"
+    },
+    {
+      "name": "Norfolk Island",
+      "dialingCode": "+1",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/nf-flag.jpg"
+    },
+    {
+      "name": "Northern Mariana Islands",
+      "dialingCode": "+870",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/mp-flag.jpg"
+    },
+    {
+      "name": "Pitcairn",
+      "dialingCode": "+1",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/pn-flag.jpg"
+    },
+    {
+      "name": "Puerto Rico",
+      "dialingCode": "+262",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/pr-flag.jpg"
+    },
+    {
+      "name": "Reunion",
+      "dialingCode": "+886",
+      "imageLink": "https://www.worldatlas.com/r/w425/upload/24/2f/ed/1280px-proposed-flag-of-re-union-var-svg.png"
+    },
+    {
+      "name": "Taiwan",
+      "dialingCode": "+690",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/tw-flag.jpg"
+    },
+    {
+      "name": "Tokelau",
+      "dialingCode": "+1",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/tk-flag.jpg"
+    },
+    {
+      "name": "Turks and Caicos Islands",
+      "dialingCode": "+1",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/tc-flag.jpg"
+    },
+    {
+      "name": "U.S. Virgin Islands",
+      "dialingCode": "+681",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/vi-flag.jpg"
+    },
+    {
+      "name": "Wallis and Futuna",
+      "dialingCode": "+212",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/wf-flag.jpg"
+    },
+    {
+      "name": "Western Sahara",
+      "imageLink": "https://www.worldatlas.com/r/w425/img/flag/eh-flag.jpg"
+    }
+  ]
+}

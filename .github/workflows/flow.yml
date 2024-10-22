@@ -20,7 +20,7 @@ jobs:
         with:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          region: us-north-1 # Replace with your desired region
+          aws-region: us-north-1 # Replace with your desired region
       - name: Login to ECR
         run: aws ecr get-login-password --region eu-north-1 | docker login --username AWS --password-stdin 084375553593.dkr.ecr.eu-north-1.amazonaws.com
       - name: Build Docker Image
@@ -31,4 +31,4 @@ jobs:
         run: docker push 084375553593.dkr.ecr.eu-north-1.amazonaws.com/crm-frontend:latest
       - name: Run Docker container on EC2 instance (Consider using configuration management tools for provisioning)
         # Assuming you have an existing EC2 instance with Docker installed and configured
-        run: ssh -i  ubuntu@16.171.242.25 docker run -d --port 3000:3000--name front-crm 084375553593.dkr.ecr.eu-north-1.amazonaws.com/crm-frontend:latest
+        run: ssh -i  ubuntu@16.171.242.25 sudo docker run -d --port 3000:3000--name front-crm 084375553593.dkr.ecr.eu-north-1.amazonaws.com/crm-frontend:latest

@@ -1,35 +1,41 @@
-name: Build and Deploy Docker Image to ECR and EC2
+name: Deploy to ECR
 
 on:
   push:
-    branches: [main]
+    branches: [ main ]
 
 jobs:
   build:
+    name: Build and Push Image to ECR
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v3
-      
-      - name: Set up Docker
-        uses: docker/setup-buildx-action@v2
-      
-      - name: Configure AWS Credentials
-        uses: aws-actions/configure-aws-credentials@v1
-      - name: Configure AWS Credentials
-        uses: aws-actions/configure-aws-credentials@v1
-        with:
-          aws-access-key-id: ASIARHJJMYY4UKDX3M5S
-          aws-secret-access-key: 3D/zm943fdL0bB3T5aN8N/hr+ayEnmDJaydjeNXM
-          aws-session-token: IQoJb3JpZ2luX2VjEEUaCmV1LW5vcnRoLTEiRjBEAiBEY1xM5L6Yv08Banxn1YjZq7b10ALhBknsPz9q3bFSHwIgeIdFXPNyybukdbHtx5Zdvb+r9z3y+cJrUrk5wgqUjn4q+gIIrv//////////ARAAGgwwODQzNzU1NTM1OTMiDNlANEko6PRh8gKjRCrOAsbn88NLxDIJLr5Ob1+kVSdBxEV5t1fQ4vB8xUMGoAghNzmNYDOdGzDUCgXvnOreep0yRugHquVofX1ehAH17yeHs0Zo9K9k2r0zuNufjxvBOyCvh+Cm4B6elwtBowGebaElhUC+rXqCdoVJrLOyQohelqqeMBaYz5UtSPdn6aHnIbIpzIWLA0uF4GUPvDxOgfRI4eAAuw08tLUFNqdrhtdf5qKW2wI7Ce2BElDQdW3W/hSCYNLNFj6OHYvyUcZznh83h95hr1PPLvxIXDYzgf4ek4hJYlVulKQ8ohSaQ/FdAHc244vMLJlcG+kmSMBiL7TDp3A2I5nrCLeyaFtX24+GQBXC3a8B4uiD5YrCkIkU4BehVJ5tv3NCI/lLB7gNzMOz+Yu3L+6bBugTd1eA/PfgoOw8lqBdf7KWkRtUk8WZlZcY7C5u2fMb7Y81sZswkZ7guAY6qAEJi8GzQaggv0bnhQHvN+svVK81EsTN1xgZIwQYp9mWr6iCNOgehaR3VCOCrRLprvTK7Y1qlaLKFze2mW8CaVwk9I+f0vQVLWoBXRX9WPE3VYIrMkvPK8ik7EhRJABkkXZKbsj6tugNYoCAJwiV9rSeFVexcoBT9ycjMbyTZ01DF2uZQcZQuknCNNiTOdUqoXYixP4Ioo/T558piRzD11M5E7ycJP+4XcE=
-          aws-region: eu-north-1
-      - name: Login to ECR
-        run: aws ecr get-login-password --region eu-north-1 | docker login --username AWS --password-stdin 084375553593.dkr.ecr.eu-north-1.amazonaws.com
-      - name: Build Docker Image
-        run: docker build -t crm-frontend .
-      - name: docker tag
-        run: docker tag crm-frontend:latest 084375553593.dkr.ecr.eu-north-1.amazonaws.com/crm-frontend:latest
-      - name: Push Docker Image to ECR
-        run: docker push 084375553593.dkr.ecr.eu-north-1.amazonaws.com/crm-frontend:latest
-      - name: Run Docker container on EC2 instance (Consider using configuration management tools for provisioning)
+    - name: Check out code
+      uses: actions/checkout@v2
+    
+    - name: Set up AWS CLI
+      uses: aws-actions/configure-aws-credentials@v1
+      with:
+        aws-access-key-id: ASIARHJJMYY4UKDX3M5S
+        aws-secret-access-key: 3D/zm943fdL0bB3T5aN8N/hr+ayEnmDJaydjeNXM
+        aws-session-token: IQoJb3JpZ2luX2VjEEUaCmV1LW5vcnRoLTEiRjBEAiBEY1xM5L6Yv08Banxn1YjZq7b10ALhBknsPz9q3bFSHwIgeIdFXPNyybukdbHtx5Zdvb+r9z3y+cJrUrk5wgqUjn4q+gIIrv//////////ARAAGgwwODQzNzU1NTM1OTMiDNlANEko6PRh8gKjRCrOAsbn88NLxDIJLr5Ob1+kVSdBxEV5t1fQ4vB8xUMGoAghNzmNYDOdGzDUCgXvnOreep0yRugHquVofX1ehAH17yeHs0Zo9K9k2r0zuNufjxvBOyCvh+Cm4B6elwtBowGebaElhUC+rXqCdoVJrLOyQohelqqeMBaYz5UtSPdn6aHnIbIpzIWLA0uF4GUPvDxOgfRI4eAAuw08tLUFNqdrhtdf5qKW2wI7Ce2BElDQdW3W/hSCYNLNFj6OHYvyUcZznh83h95hr1PPLvxIXDYzgf4ek4hJYlVulKQ8ohSaQ/FdAHc244vMLJlcG+kmSMBiL7TDp3A2I5nrCLeyaFtX24+GQBXC3a8B4uiD5YrCkIkU4BehVJ5tv3NCI/lLB7gNzMOz+Yu3L+6bBugTd1eA/PfgoOw8lqBdf7KWkRtUk8WZlZcY7C5u2fMb7Y81sZswkZ7guAY6qAEJi8GzQaggv0bnhQHvN+svVK81EsTN1xgZIwQYp9mWr6iCNOgehaR3VCOCrRLprvTK7Y1qlaLKFze2mW8CaVwk9I+f0vQVLWoBXRX9WPE3VYIrMkvPK8ik7EhRJABkkXZKbsj6tugNYoCAJwiV9rSeFVexcoBT9ycjMbyTZ01DF2uZQcZQuknCNNiTOdUqoXYixP4Ioo/T558piRzD11M5E7ycJP+4XcE=
+        aws-region: eu-north-1
+
+    - name: Authenticate Docker to ECR
+      run: |
+        aws ecr get-login-password --region eu-north-1 | docker login --username AWS --password-stdin 084375553593.dkr.ecr.eu-north-1.amazonaws.com
+
+    - name: Build Docker image
+      run: |
+        docker build -t crm-frontend-ys07 .
+
+    - name: Tag Docker image
+      run: |
+        docker tag crm-frontend-ys07:latest 084375553593.dkr.ecr.eu-north-1.amazonaws.com/crm-frontend-ys07:latest
+
+    - name: Push Docker image to ECR
+      run: |
+        docker push 084375553593.dkr.ecr.eu-north-1.amazonaws.com/crm-frontend-ys07:latest
+    - name: Run Docker container on EC2 instance (Consider using configuration management tools for provisioning)
         # Assuming you have an existing EC2 instance with Docker installed and configured
-        run: ssh -i  ubuntu@16.171.242.25 sudo docker run -d --port 3000:3000--name front-crm 084375553593.dkr.ecr.eu-north-1.amazonaws.com/crm-frontend:latest
+      run: ssh -i  ubuntu@16.171.242.25 sudo docker run -d --port 3000:3000--name front-crm 084375553593.dkr.ecr.eu-north-1.amazonaws.com/crm-frontend:latest

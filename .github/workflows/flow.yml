@@ -21,7 +21,7 @@ jobs:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-session-token: IQoJb3JpZ2luX2VjEEUaCmV1LW5vcnRoLTEiRjBEAiBEY1xM5L6Yv08Banxn1YjZq7b10ALhBknsPz9q3bFSHwIgeIdFXPNyybukdbHtx5Zdvb+r9z3y+cJrUrk5wgqUjn4q+gIIrv//////////ARAAGgwwODQzNzU1NTM1OTMiDNlANEko6PRh8gKjRCrOAsbn88NLxDIJLr5Ob1+kVSdBxEV5t1fQ4vB8xUMGoAghNzmNYDOdGzDUCgXvnOreep0yRugHquVofX1ehAH17yeHs0Zo9K9k2r0zuNufjxvBOyCvh+Cm4B6elwtBowGebaElhUC+rXqCdoVJrLOyQohelqqeMBaYz5UtSPdn6aHnIbIpzIWLA0uF4GUPvDxOgfRI4eAAuw08tLUFNqdrhtdf5qKW2wI7Ce2BElDQdW3W/hSCYNLNFj6OHYvyUcZznh83h95hr1PPLvxIXDYzgf4ek4hJYlVulKQ8ohSaQ/FdAHc244vMLJlcG+kmSMBiL7TDp3A2I5nrCLeyaFtX24+GQBXC3a8B4uiD5YrCkIkU4BehVJ5tv3NCI/lLB7gNzMOz+Yu3L+6bBugTd1eA/PfgoOw8lqBdf7KWkRtUk8WZlZcY7C5u2fMb7Y81sZswkZ7guAY6qAEJi8GzQaggv0bnhQHvN+svVK81EsTN1xgZIwQYp9mWr6iCNOgehaR3VCOCrRLprvTK7Y1qlaLKFze2mW8CaVwk9I+f0vQVLWoBXRX9WPE3VYIrMkvPK8ik7EhRJABkkXZKbsj6tugNYoCAJwiV9rSeFVexcoBT9ycjMbyTZ01DF2uZQcZQuknCNNiTOdUqoXYixP4Ioo/T558piRzD11M5E7ycJP+4XcE=
-          aws-region: us-north-1 # Replace with your desired region
+          aws-region: eu-north-1 # Replace with your desired region
       - name: Login to ECR
         run: aws ecr get-login-password --region eu-north-1 | docker login --username AWS --password-stdin 084375553593.dkr.ecr.eu-north-1.amazonaws.com
       - name: Build Docker Image

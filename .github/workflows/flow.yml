@@ -38,4 +38,7 @@ jobs:
         docker push 084375553593.dkr.ecr.eu-north-1.amazonaws.com/crm-frontend-ys07:latest
     - name: Run Docker container on EC2 instance (Consider using configuration management tools for provisioning)
         # Assuming you have an existing EC2 instance with Docker installed and configured
-      run: ssh -o StrictHostKeyChecking=no ubuntu@16.171.242.25 sudo docker run -d --port 3000:3000--name front-crm 084375553593.dkr.ecr.eu-north-1.amazonaws.com/crm-frontend:latest
+      run: |
+        echo "${{secrets.EC2_PEM_KEY}}" > private_key.pem
+        chmod 600 pricate_key.pem
+        ssh -o StrictHostKeyChecking=no ubuntu@16.171.242.25 sudo docker run -d --port 3000:3000--name front-crm 084375553593.dkr.ecr.eu-north-1.amazonaws.com/crm-frontend:latest

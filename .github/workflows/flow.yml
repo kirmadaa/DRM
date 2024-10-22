@@ -3,7 +3,8 @@ name: Build and Push Docker Image
 on:
   push:
     branches:
-      - fixes/listveiw
+      - pr
+      - main
 jobs:
   build:
     runs-on: ubuntu-latest

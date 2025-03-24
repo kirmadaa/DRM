@@ -1,0 +1,71 @@
+name: Semgrep Auto-Fix
+
+on:
+  pull_request: {}
+  workflow_dispatch: {}
+  push:
+    branches:
+      - main
+      - master
+
+
+permissions:
+  contents: write
+
+jobs:
+  semgrep_auto_fix:
+    name: Run Semgrep Auto-Fix and Create PR
+    runs-on: ubuntu-latest
+    container:
+      image: semgrep/semgrep:latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Run Semgrep auto-fix
+        env:
+          SEMGREP_APP_TOKEN: ${{ secrets.SEMGREP_APP_TOKEN }}
+        run: |
+          # Run Semgrep using default rules with auto-fix.
+          # If you’re integrating with the Semgrep AppSec Platform,
+          # this token will authenticate your scan.
+          semgrep --auto-fix .
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          CHANGES=$(git status --porcelain)
+          echo "$CHANGES"
+          if [ -n "$CHANGES" ]; then
+            echo "changed=true" >> $GITHUB_OUTPUT
+          else
+            echo "changed=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit fixes if any
+        if: steps.check_changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "Semgrep auto-fix applied"
+
+      - name: Push fixes and create branch
+        id: push_fixes
+        if: steps.check_changes.outputs.changed == 'true'
+        run: |
+          BRANCH_NAME="semgrep-auto-fix-${GITHUB_RUN_ID}"
+          git checkout -b "$BRANCH_NAME"
+          git push origin "$BRANCH_NAME"
+          echo "branch_name=$BRANCH_NAME" >> $GITHUB_OUTPUT
+
+      - name: Create Pull Request
+        if: steps.check_changes.outputs.changed == 'true'
+        uses: peter-evans/create-pull-request@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ steps.push_fixes.outputs.branch_name }}
+          base: ${{ github.ref }}
+          title: "Semgrep Auto-Fix"
+          body: "Automated fixes applied by Semgrep."

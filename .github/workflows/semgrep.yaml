@@ -30,7 +30,7 @@ jobs:
           # Run Semgrep using default rules with auto-fix.
           # If you’re integrating with the Semgrep AppSec Platform,
           # this token will authenticate your scan.
-          semgrep --auto-fix .
+          semgrep --autofix .
 
       - name: Check for changes
         id: check_changes
